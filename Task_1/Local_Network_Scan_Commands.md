@@ -19,7 +19,9 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
 
-Command: `nmap -sS 192.168.75.0/24`:
+
+`nmap` Commands:
+1. `nmap -sS 192.168.75.0/24`:
 ```
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-26 10:22 IST
 Nmap scan report for 192.168.75.1
@@ -47,4 +49,36 @@ All 1000 scanned ports on 192.168.75.128 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
 
 Nmap done: 256 IP addresses (4 hosts up) scanned in 8.57 seconds
+```
+
+
+2. `nmap -sS -sCV 192.168.75.0/24`:
+```
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-26 17:11 IST
+Nmap scan report for 192.168.75.1
+Host is up (0.00031s latency).
+All 1000 scanned ports on 192.168.75.1 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 00:50:56:C0:00:08 (VMware)
+
+Nmap scan report for 192.168.75.2
+Host is up (0.00018s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE    VERSION
+53/tcp open  tcpwrapped
+MAC Address: 00:50:56:F7:FB:48 (VMware)
+
+Nmap scan report for 192.168.75.254
+Host is up (0.00021s latency).
+All 1000 scanned ports on 192.168.75.254 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 00:50:56:E6:45:D7 (VMware)
+
+Nmap scan report for 192.168.75.128
+Host is up (0.0000070s latency).
+All 1000 scanned ports on 192.168.75.128 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (4 hosts up) scanned in 16.18 seconds
 ```
