@@ -92,6 +92,7 @@ Session later reset (RST flag seen) indicating either a closed or failed connect
 `192.168.75.2` → Likely default gateway or DNS resolver.
 
 ### Files Included
-✅ [.pcapng capture file: Traffic_Analysis_with Ping.pcapng]
+✅ [.pcapng capture file: Traffic_Analysis_with Ping.pcapng](https://drive.google.com/file/d/1l_YABrEvV1Wa3PcKDw3xzMqK3PoQwMFz/view?usp=sharing)
 
-✅ [Screenshot: showing filtered ICMP, DNS, and TCP traffic.]
+✅ [Screenshot: showing filtered ICMP, DNS, and TCP traffic.](https://github.com/AdityaPatadiya/Internship_Tasks/blob/main/Task_5/Screenshot_2025-06-02_18-32-00.png)
+
