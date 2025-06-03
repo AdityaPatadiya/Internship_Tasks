@@ -42,8 +42,18 @@ Note feedback (e.g., "too short", "add symbols", "common word")
 | Password    | Score / Crack Time | Feedback                |
 | ----------- | ------------------ | ----------------------- |
 | password123 | Very weak / 2 sec  | Common word, no symbols |
-| M1!cR0\$0ft | Strong / 5 years   | Good mix of characters  |
+| M1!cR0\$0ft | Strong / 2 months  | Good mix of characters  |
 | Abcdef      | Weak / 3 sec       | Too short, no variety   |
+
+### Here's the output for the different password:
+
+![Screenshot 2025-06-03 220901](https://github.com/user-attachments/assets/9f28771f-3093-4a45-b7f9-6c90c6d378cf)
+
+![Screenshot 2025-06-03 220911](https://github.com/user-attachments/assets/50db6f86-002d-48ae-8f5f-0e01d63aaace)
+
+![Screenshot 2025-06-03 220921](https://github.com/user-attachments/assets/1e74f73b-8af3-4ec6-847e-956e8a273a06)
+
+![Screenshot 2025-06-03 220932](https://github.com/user-attachments/assets/09ac31b8-8dc0-4d3f-b153-cd65e688fc6d)
 
 ## 5. Identify Best Practices
 
